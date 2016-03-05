@@ -8,4 +8,9 @@ class CreditCard
   def charge(amount)
     @balance += amount
   end
+
+  def payment (amount2)
+    @balance -= amount2
+  end
 end
+
